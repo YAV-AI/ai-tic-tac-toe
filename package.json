@@ -1,15 +1,30 @@
 {
+  "type": "module",
   "name": "ai-tic-tac-toe",
+  "description": "This is a command-line Tic Tac Toe game with a computer opponent that uses the minimax algorithm for strategic moves.",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://github.com/YAV-AI/ai-tic-tac-toe/blob/main/README.MD",
+  "license": "MIT",
   "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/YAV-AI/ai-tic-tac-toe/issues"
+  },
+  "author": {
+    "name": "Yavisht Katgara",
+    "url": "https://github.com/yavisht"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YAV-AI/ai-tic-tac-toe.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "play": "node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cowsay": "^1.5.0"
   }
