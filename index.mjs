@@ -84,7 +84,6 @@ function computerMove() {
       if (board[i][j] === " ") {
         board[i][j] = "O";
         if (checkWin("O")) {
-          board[i][j] = "O"; // Complete the winning move
           return;
         }
         board[i][j] = " ";

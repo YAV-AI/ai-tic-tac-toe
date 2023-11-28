@@ -10,6 +10,7 @@ export function animateWin() {
         T: "U ",
       })
     );
+    console.log("\n");
   }, 500);
 }
 
@@ -23,6 +24,7 @@ export function animateDraw() {
         T: "U ",
       })
     );
+    console.log("\n");
   }, 500);
 }
 
@@ -36,5 +38,6 @@ export function animateLose() {
         T: "U ",
       })
     );
+    console.log("\n");
   }, 500);
 }
